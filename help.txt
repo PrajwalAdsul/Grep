@@ -1,0 +1,4 @@
+took help of internet to grep options meaning and also for implementing kmp algorithm and trie data structure.
+geeksforgeeks.com helped in KMP algorithm.
+Dont remember the actual website for trie data structure.
+

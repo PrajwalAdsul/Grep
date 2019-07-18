@@ -1,0 +1,233 @@
+make
+./project
+./project --help
+./project happy test1.txt
+./project happy test1.txt test2.txt
+./project happy -w test1.txt test2.txt
+./project happy -i test1.txt test2.txt
+./project happy  -w -i test1.txt test2.txt
+./project happy  -w -i -b test1.txt test2.txt
+./project happy -w -i -b -H test1.txt test2.txt
+./project happy -w -i -b -q test1.txt test2.txt
+./project happy -v -w -i test1.txt test2.txt
+./project happy -v -w -i -b test1.txt test2.txt
+./project happy -v -w -i -b -H test1.txt test2.txt
+./project happy -w -i -b -v test1.txt test2.txt
+./project happy -w -i -b -v -c test1.txt test2.txt
+./project happy  -i -b test1.txt test2.txt
+./project happy  -c test1.txt test2.txt
+./project happy  -v -m 2 test1.txt test2.txt
+./project happy  -v -m 5 test1.txt test2.txt
+./project happy  -m 5 test1.txt test2.txt
+./project happy  -m 2 test1.txt test2.txt
+./project happy  -m 1000000 test1.txt test2.txt
+./project happy  -v -i -w -b -m 2 test1.txt test2.txt
+./project happy  -i -b -w -m 3 test1.txt test2.txt
+./project happy -m 3 -H test1.txt
+./project happy -r dir 
+./project happy -w -r dir 
+./project happy -i -r dir 
+./project happy  -w -i -r dir 
+./project happy  -w -i -b -r dir 
+./project happy -w -i -b -H -r dir 
+./project happy -w -i -b -q -r dir 
+./project happy -v -w -i -r dir 
+./project happy -v -w -i -b -r dir 
+./project happy -v -w -i -b -H -r dir 
+./project happy -w -i -b -v -r dir 
+./project happy -w -i -b -v -c -r dir 
+./project happy  -i -b -r dir 
+./project happy  -c -r dir 
+./project happy  -v -m 2 -r dir 
+./project happy  -v -m 5 -r dir 
+./project happy  -m 5 -r dir 
+./project happy  -m 2 -r dir 
+./project happy  -m 1000000 -r dir 
+./project happy  -v -i -w -b -m 2 -r dir 
+./project happy  -i -b -w -m 3 -r dir 
+./project happy -m 3 -H -r dir
+./project -e happy -e -fair -e smile test1.txt
+./project -e happy -e -fair -e smile -c test1.txt
+./project -e happy -e -fair -e smile -i test1.txt
+./project -e happy -e -fair -e smile -i -w test1.txt
+./project -e happy -e -fair -e smile -i -w -c test1.txt
+./project -e happy -e -fair -e smile -i -w -b -H test1.txt
+./project -e happy -e -fair -e smile -m 4 test1.txt
+./project -e happy -e -fair -e smile -v -m 6 test1.txt
+./project -e happy -e -fair -e smile -i -w -b -H -m 2 test1.txt
+./project -e happy -e -fair -e smile -i -w -q test1.txt
+./project -f t.txt test1.txt
+./project -f t.txt test1.txt  
+./project -f t.txt -w test1.txt  
+./project -f t.txt -i test1.txt  
+./project -f t.txt  -w -i test1.txt  
+./project -f t.txt  -w -i -b test1.txt  
+./project -f t.txt -w -i -b -H test1.txt  
+./project -f t.txt -w -i -b -q test1.txt  
+./project -f t.txt -v -w -i test1.txt  
+./project -f t.txt -v -w -i -b test1.txt  
+./project -f t.txt -v -w -i -b -H test1.txt  
+./project -f t.txt -w -i -b -v test1.txt  
+./project -f t.txt -w -i -b -v -c test1.txt  
+./project -f t.txt  -i -b test1.txt  
+./project -f t.txt  -c test1.txt  
+./project -f t.txt  -v -m 2 test1.txt  
+./project -f t.txt  -v -m 5 test1.txt  
+./project -f t.txt  -m 5 test1.txt  
+./project -f t.txt  -m 2 test1.txt  
+./project -f t.txt  -m 1000000 test1.txt  
+./project -f t.txt  -v -i -w -b -m 2 test1.txt  
+./project -f t.txt  -i -b -w -m 3 test1.txt  
+./project -f t.txt -e were test1.txt  
+./project -f t.txt -e were -w test1.txt  
+./project -f t.txt -e were -i test1.txt  
+./project -f t.txt -e were  -w -i test1.txt  
+./project -f t.txt -e were  -w -i -b test1.txt  
+./project -f t.txt -e were -w -i -b -H test1.txt  
+./project -f t.txt -e were -w -i -b -q test1.txt  
+./project -f t.txt -e were -v -w -i test1.txt  
+./project -f t.txt -e were -v -w -i -b test1.txt  
+./project -f t.txt -e were -v -w -i -b -H test1.txt  
+./project -f t.txt -e were -w -i -b -v test1.txt  
+./project -f t.txt -e were -w -i -b -v -c test1.txt  
+./project -f t.txt -e were  -i -b test1.txt  
+./project -f t.txt -e were  -c test1.txt  
+./project -f t.txt -e were  -v -m 2 test1.txt  
+./project -f t.txt -e were  -v -m 5 test1.txt  
+./project -f t.txt -e were  -m 5 test1.txt  
+./project -f t.txt -e were  -m 2 test1.txt  
+./project -f t.txt -e were  -m 1000000 test1.txt  
+./project -f t.txt -e were  -v -i -w -b -m 2 test1.txt  
+./project -f t.txt -e were  -i -b -w -m 3 test1.txt  
+./project "^happy" test1.txt
+./project "^happy" -v test1.txt
+./project "^happy" -v -b test1.txt
+./project "^happy" -v -c test1.txt  
+./project "^happy" -v -i -H test1.txt
+./project "^happy" -v -H test1.txt
+./project "^but" test1.txt  
+./project "^but" -w test1.txt  
+./project "^but" -i test1.txt  
+./project "^but"  -w -i test1.txt  
+./project "^but"  -w -i -b test1.txt  
+./project "^but" -w -i -b -H test1.txt  
+./project "^but" -w -i -b -q test1.txt  
+./project "^but" -v -w -i test1.txt  
+./project "^but" -v -w -i -b test1.txt  
+./project "^but" -v -w -i -b -H test1.txt  
+./project "^but" -w -i -b -v test1.txt  
+./project "^but" -w -i -b -v -c test1.txt  
+./project "^but"  -i -b test1.txt  
+./project "^but"  -c test1.txt  
+./project "^but"  -v -m 2 test1.txt  
+./project "^but"  -v -m 5 test1.txt  
+./project "^but"  -m 5 test1.txt  
+./project "^but"  -m 2 test1.txt  
+./project "^but"  -m 1000000 test1.txt  
+./project "^but"  -v -i -w -b -m 2 test1.txt  
+./project "^but"  -i -b -w -m 3 test1.txt  
+./project "happy$" test1.txt  
+./project "happy$" -w test1.txt  
+./project "happy$" -i test1.txt  
+./project "happy$"  -w -i test1.txt  
+./project "happy$"  -w -i -b test1.txt  
+./project "happy$" -w -i -b -H test1.txt  
+./project "happy$" -w -i -b -q test1.txt  
+./project "happy$" -v -w -i test1.txt  
+./project "happy$" -v -w -i -b test1.txt  
+./project "happy$" -v -w -i -b -H test1.txt  
+./project "happy$" -w -i -b -v test1.txt  
+./project "happy$" -w -i -b -v -c test1.txt  
+./project "happy$"  -i -b test1.txt  
+./project "happy$"  -c test1.txt  
+./project "happy$"  -v -m 2 test1.txt  
+./project "happy$"  -v -m 5 test1.txt  
+./project "happy$"  -m 5 test1.txt  
+./project "happy$"  -m 2 test1.txt  
+./project "happy$"  -m 1000000 test1.txt  
+./project "happy$"  -v -i -w -b -m 2 test1.txt  
+./project "happy$"  -i -b -w -m 3 test1.txt  
+./project "ness$" test1.txt  
+./project "ness$" -w test1.txt  
+./project "ness$" -i test1.txt  
+./project "ness$"  -w -i test1.txt  
+./project "ness$"  -w -i -b test1.txt  
+./project "ness$" -w -i -b -H test1.txt  
+./project "ness$" -w -i -b -q test1.txt  
+./project "ness$" -v -w -i test1.txt  
+./project "ness$" -v -w -i -b test1.txt  
+./project "ness$" -v -w -i -b -H test1.txt  
+./project "ness$" -w -i -b -v test1.txt  
+./project "ness$" -w -i -b -v -c test1.txt  
+./project "ness$"  -i -b test1.txt  
+./project "ness$"  -c test1.txt  
+./project "ness$"  -v -m 2 test1.txt  
+./project "ness$"  -v -m 5 test1.txt  
+./project "ness$"  -m 5 test1.txt  
+./project "ness$"  -m 2 test1.txt  
+./project "ness$"  -m 1000000 test1.txt  
+./project "ness$"  -v -i -w -b -m 2 test1.txt  
+./project "ness$"  -i -b -w -m 3 test1.txt  
+./project h.p.y test1.txt  
+./project ..p.. -w test1.txt  
+./project ..p.. -i test1.txt  
+./project ..p..  -w -i test1.txt  
+./project ..p..  -w -i -b test1.txt  
+./project ..p.. -w -i -b -H test1.txt  
+./project ..p.. -w -i -b -q test1.txt  
+./project ..p.. -v -w -i test1.txt  
+./project ..p.. -v -w -i -b test1.txt  
+./project ..p.. -v -w -i -b -H test1.txt  
+./project ..p.. -w -i -b -v test1.txt  
+./project ..p.. -w -i -b -v -c test1.txt  
+./project ..p..  -i -b test1.txt  
+./project ..p..  -c test1.txt  
+./project ..p..  -v -m 2 test1.txt  
+./project ..p..  -v -m 5 test1.txt  
+./project ..p..  -m 5 test1.txt  
+./project ..p..  -m 2 test1.txt  
+./project ..p..  -m 1000000 test1.txt  
+./project ..p..  -v -i -w -b -m 2 test1.txt  
+./project ..p..  -i -b -w -m 3 test1.txt  
+./project h.p.y test1.txt  
+./project h.p.y -w test1.txt  
+./project h.p.y -i test1.txt  
+./project h.p.y  -w -i test1.txt  
+./project h.p.y  -w -i -b test1.txt  
+./project h.p.y -w -i -b -H test1.txt  
+./project h.p.y -w -i -b -q test1.txt  
+./project h.p.y -v -w -i test1.txt  
+./project h.p.y -v -w -i -b test1.txt  
+./project h.p.y -v -w -i -b -H test1.txt  
+./project h.p.y -w -i -b -v test1.txt  
+./project h.p.y -w -i -b -v -c test1.txt  
+./project h.p.y  -i -b test1.txt  
+./project h.p.y  -c test1.txt  
+./project h.p.y  -v -m 2 test1.txt  
+./project h.p.y  -v -m 5 test1.txt  
+./project h.p.y  -m 5 test1.txt  
+./project h.p.y  -m 2 test1.txt  
+./project h.p.y  -m 1000000 test1.txt  
+./project h.p.y  -v -i -w -b -m 2 test1.txt  
+./project h.p.y  -i -b -w -m 3 test1.txt  
+./project [abcefgh][abc][pqr]py test1.txt  
+./project [abcefgh][abc][pqr]py -w test1.txt  
+./project [abcefgh][abc][pqr]py -i test1.txt  
+./project [abcefgh][abc][pqr]py  -w -i test1.txt  
+./project [abcefgh][abc][pqr]py  -w -i -b test1.txt  
+./project [abcefgh][abc][pqr]py -w -i -b -H test1.txt  
+./project [abcefgh][abc][pqr]py -w -i -b -q test1.txt  
+./project [abcefgh][abc][pqr]py -v -w -i test1.txt  
+./project [abcefgh][abc][pqr]py -v -w -i -b test1.txt  
+./project [abcefgh][abc][pqr]py -v -w -i -b -H test1.txt  
+./project [abcefgh][abc][pqr]py -w -i -b -v test1.txt  
+./project [abcefgh][abc][pqr]py -w -i -b -v -c test1.txt  
+./project [abcefgh][abc][pqr]py  -i -b test1.txt  
+./project [abcefgh][abc][pqr]py  -c test1.txt  
+./project [abcefgh][abc][pqr]py  -v -m 2 test1.txt  
+./project [abcefgh][abc][pqr]py  -v -m 5 test1.txt  
+./project [abcefgh][abc][pqr]py  -m 5 test1.txt  
+./project [abcefgh][abc][pqr]py  -m 2 test1.txt  
+./project [abcefgh][abc][pqr]py  -m 1000000 test1.txt  
+./project [abcefgh][abc][pqr]py  -v -i -w -b -m 2 test1.txt  
+./project [abcefgh][abc][pqr]py  -i -b -w -m 3 test1.txt
