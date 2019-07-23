@@ -9,23 +9,8 @@
 #include <limits.h>
 #include <ctype.h>
 #include <dirent.h>
-#include <ctype.h>
-/*
-Note
-I have declared many global variables across many files, hence I we can't really use a .h file here
- 
-#include "globals.c"	
-#include "choose.c"
-#include "priority.c"
-#include "trie.c"
-#include "foref.c"
-#include "dot.c"
-#include "brackets.c"
-#include "reg.c"
-#include "kmp.c"	
-#include "rec_files.c"	
-#include "help.c"
-*/
+
+// For colors
 #define KNRM  "\x1B[0m"
 #define KRED  "\x1B[31m"
 #define KGRN  "\x1B[32m"
